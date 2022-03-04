@@ -23,5 +23,49 @@ body{
     margin-left: 150px;
     font-size: 40px;
 }
-
-
+.inputs{
+    display: block;
+    margin-top: 80px;
+    margin-left: 100px;
+    width: 350px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 0px;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px;
+}
+.inputs:hover{
+    cursor: pointer;
+}
+::placeholder{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    background: -webkit-linear-gradient(rgb(75, 73, 187), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.inputs:focus{
+    font-size: 15px;
+    font-weight: bold;
+}
+.submit-btn{
+    display: block;
+    margin-top: 80px;
+    margin-left: 100px;
+    border: 0px;
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+    border: 5px inset #a10000;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    font-size: 15px;
+    transition:all 400ms ease-out;
+}
+.submit-btn:hover{
+    cursor: pointer;
+    background-color: #FF9A8B;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+    border: 0px;
+    transition:all 400ms ease-in;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
